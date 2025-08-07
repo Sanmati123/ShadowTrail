@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ShadowTrail - Activity Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>ShadowTrail: Activity Tracker</h1>
+    <div id="status">
+      <p><strong>Mouse Movements:</strong> <span id="mouseCount">0</span></p>
+      <p><strong>Key Presses:</strong> <span id="keyCount">0</span></p>
+      <p><strong>Tab Switches:</strong> <span id="tabSwitches">0</span></p>
+      <p><strong>Idle Time (sec):</strong> <span id="idleTime">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+    <button onclick="downloadReport()">Download Report</button>
+  </body>
+</html>
